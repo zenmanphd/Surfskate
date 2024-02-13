@@ -9,7 +9,7 @@ p {
 }
 
 body {
-  background-image: url(../images/afh.jpg);
+  background-image: url('afh.jpg');
   background-size: cover;
   background-position: fixed;
   animation: transitionIn 950ms;
