@@ -1,0 +1,42 @@
+h1,
+p {
+  transform: rotate(-20deg);
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: linear-gradient(cornflowerblue, white, gold);
+  -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+body {
+  background-image: url(../images/afh.jpg);
+  background-size: cover;
+  background-position: fixed;
+  animation: transitionIn 950ms;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+div {
+  height: 750px;
+}
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: transparent;
+  color: aquamarine;
+  transform: rotate(-20deg);
+}
+button:hover {
+  background-image: linear-gradient(green, cornflowerblue);
+  font-size: larger;
+  transform: rotate(20deg);
+}
